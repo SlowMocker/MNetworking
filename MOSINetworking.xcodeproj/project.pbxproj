@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF327D3F2518776200036C4D /* MOSIURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF327D322518776100036C4D /* MOSIURLSessionManager.m */; };
+		FF327D402518776200036C4D /* MOSIURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FF327D332518776100036C4D /* MOSIURLRequestSerialization.m */; };
+		FF327D412518776200036C4D /* MOSISecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF327D382518776200036C4D /* MOSISecurityPolicy.m */; };
+		FF327D422518776200036C4D /* MOSINetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF327D3A2518776200036C4D /* MOSINetworkReachabilityManager.m */; };
+		FF327D432518776200036C4D /* MOSIHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF327D3B2518776200036C4D /* MOSIHTTPSessionManager.m */; };
+		FF327D442518776200036C4D /* MOSIURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FF327D3D2518776200036C4D /* MOSIURLResponseSerialization.m */; };
+		FF327D462518778600036C4D /* MOSIHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D3E2518776200036C4D /* MOSIHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF327D472518778600036C4D /* MOSINetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D342518776100036C4D /* MOSINetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF327D482518778600036C4D /* MOSINetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D352518776100036C4D /* MOSINetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF327D492518778600036C4D /* MOSISecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D3C2518776200036C4D /* MOSISecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF327D4A2518778600036C4D /* MOSIURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D392518776200036C4D /* MOSIURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF327D4B2518778600036C4D /* MOSIURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D362518776100036C4D /* MOSIURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF327D4C2518778600036C4D /* MOSIURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D372518776100036C4D /* MOSIURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF327D242518771E00036C4D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF327D262518771E00036C4D /* libMOSINetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMOSINetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF327D322518776100036C4D /* MOSIURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSIURLSessionManager.m; sourceTree = "<group>"; };
+		FF327D332518776100036C4D /* MOSIURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSIURLRequestSerialization.m; sourceTree = "<group>"; };
+		FF327D342518776100036C4D /* MOSINetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSINetworking.h; sourceTree = "<group>"; };
+		FF327D352518776100036C4D /* MOSINetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSINetworkReachabilityManager.h; sourceTree = "<group>"; };
+		FF327D362518776100036C4D /* MOSIURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSIURLResponseSerialization.h; sourceTree = "<group>"; };
+		FF327D372518776100036C4D /* MOSIURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSIURLSessionManager.h; sourceTree = "<group>"; };
+		FF327D382518776200036C4D /* MOSISecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSISecurityPolicy.m; sourceTree = "<group>"; };
+		FF327D392518776200036C4D /* MOSIURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSIURLRequestSerialization.h; sourceTree = "<group>"; };
+		FF327D3A2518776200036C4D /* MOSINetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSINetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FF327D3B2518776200036C4D /* MOSIHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSIHTTPSessionManager.m; sourceTree = "<group>"; };
+		FF327D3C2518776200036C4D /* MOSISecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSISecurityPolicy.h; sourceTree = "<group>"; };
+		FF327D3D2518776200036C4D /* MOSIURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSIURLResponseSerialization.m; sourceTree = "<group>"; };
+		FF327D3E2518776200036C4D /* MOSIHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSIHTTPSessionManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF327D232518771E00036C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF327D1D2518771E00036C4D = {
+			isa = PBXGroup;
+			children = (
+				FF327D282518771E00036C4D /* MOSINetworking */,
+				FF327D272518771E00036C4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF327D272518771E00036C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF327D262518771E00036C4D /* libMOSINetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF327D282518771E00036C4D /* MOSINetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FF327D3E2518776200036C4D /* MOSIHTTPSessionManager.h */,
+				FF327D3B2518776200036C4D /* MOSIHTTPSessionManager.m */,
+				FF327D342518776100036C4D /* MOSINetworking.h */,
+				FF327D352518776100036C4D /* MOSINetworkReachabilityManager.h */,
+				FF327D3A2518776200036C4D /* MOSINetworkReachabilityManager.m */,
+				FF327D3C2518776200036C4D /* MOSISecurityPolicy.h */,
+				FF327D382518776200036C4D /* MOSISecurityPolicy.m */,
+				FF327D392518776200036C4D /* MOSIURLRequestSerialization.h */,
+				FF327D332518776100036C4D /* MOSIURLRequestSerialization.m */,
+				FF327D362518776100036C4D /* MOSIURLResponseSerialization.h */,
+				FF327D3D2518776200036C4D /* MOSIURLResponseSerialization.m */,
+				FF327D372518776100036C4D /* MOSIURLSessionManager.h */,
+				FF327D322518776100036C4D /* MOSIURLSessionManager.m */,
+			);
+			path = MOSINetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF327D452518777300036C4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF327D462518778600036C4D /* MOSIHTTPSessionManager.h in Headers */,
+				FF327D472518778600036C4D /* MOSINetworking.h in Headers */,
+				FF327D482518778600036C4D /* MOSINetworkReachabilityManager.h in Headers */,
+				FF327D492518778600036C4D /* MOSISecurityPolicy.h in Headers */,
+				FF327D4A2518778600036C4D /* MOSIURLRequestSerialization.h in Headers */,
+				FF327D4B2518778600036C4D /* MOSIURLResponseSerialization.h in Headers */,
+				FF327D4C2518778600036C4D /* MOSIURLSessionManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF327D252518771E00036C4D /* MOSINetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF327D2F2518771E00036C4D /* Build configuration list for PBXNativeTarget "MOSINetworking" */;
+			buildPhases = (
+				FF327D452518777300036C4D /* Headers */,
+				FF327D222518771E00036C4D /* Sources */,
+				FF327D232518771E00036C4D /* Frameworks */,
+				FF327D242518771E00036C4D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOSINetworking;
+			productName = MOSINetworking;
+			productReference = FF327D262518771E00036C4D /* libMOSINetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF327D1E2518771E00036C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = iSmicro;
+				TargetAttributes = {
+					FF327D252518771E00036C4D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = FF327D212518771E00036C4D /* Build configuration list for PBXProject "MOSINetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF327D1D2518771E00036C4D;
+			productRefGroup = FF327D272518771E00036C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF327D252518771E00036C4D /* MOSINetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF327D222518771E00036C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF327D402518776200036C4D /* MOSIURLRequestSerialization.m in Sources */,
+				FF327D3F2518776200036C4D /* MOSIURLSessionManager.m in Sources */,
+				FF327D432518776200036C4D /* MOSIHTTPSessionManager.m in Sources */,
+				FF327D442518776200036C4D /* MOSIURLResponseSerialization.m in Sources */,
+				FF327D422518776200036C4D /* MOSINetworkReachabilityManager.m in Sources */,
+				FF327D412518776200036C4D /* MOSISecurityPolicy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF327D2D2518771E00036C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF327D2E2518771E00036C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF327D302518771E00036C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CTFS25UCD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF327D312518771E00036C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CTFS25UCD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF327D212518771E00036C4D /* Build configuration list for PBXProject "MOSINetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF327D2D2518771E00036C4D /* Debug */,
+				FF327D2E2518771E00036C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF327D2F2518771E00036C4D /* Build configuration list for PBXNativeTarget "MOSINetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF327D302518771E00036C4D /* Debug */,
+				FF327D312518771E00036C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF327D1E2518771E00036C4D /* Project object */;
+}
