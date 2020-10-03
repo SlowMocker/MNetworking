@@ -20,15 +20,29 @@
 		FF327D4A2518778600036C4D /* MOSIURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D392518776200036C4D /* MOSIURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF327D4B2518778600036C4D /* MOSIURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D362518776100036C4D /* MOSIURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF327D4C2518778600036C4D /* MOSIURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF327D372518776100036C4D /* MOSIURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6D7A09252809D7001F4186 /* MOSIHTTPSessionManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF327D3E2518776200036C4D /* MOSIHTTPSessionManager.h */; };
+		FF6D7A0A252809D7001F4186 /* MOSINetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF327D342518776100036C4D /* MOSINetworking.h */; };
+		FF6D7A0B252809D7001F4186 /* MOSINetworkReachabilityManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF327D352518776100036C4D /* MOSINetworkReachabilityManager.h */; };
+		FF6D7A0C252809D7001F4186 /* MOSISecurityPolicy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF327D3C2518776200036C4D /* MOSISecurityPolicy.h */; };
+		FF6D7A0D252809D7001F4186 /* MOSIURLRequestSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF327D392518776200036C4D /* MOSIURLRequestSerialization.h */; };
+		FF6D7A0E252809D7001F4186 /* MOSIURLResponseSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF327D362518776100036C4D /* MOSIURLResponseSerialization.h */; };
+		FF6D7A0F252809D7001F4186 /* MOSIURLSessionManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF327D372518776100036C4D /* MOSIURLSessionManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FF327D242518771E00036C4D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = include;
 			dstSubfolderSpec = 16;
 			files = (
+				FF6D7A09252809D7001F4186 /* MOSIHTTPSessionManager.h in CopyFiles */,
+				FF6D7A0A252809D7001F4186 /* MOSINetworking.h in CopyFiles */,
+				FF6D7A0B252809D7001F4186 /* MOSINetworkReachabilityManager.h in CopyFiles */,
+				FF6D7A0C252809D7001F4186 /* MOSISecurityPolicy.h in CopyFiles */,
+				FF6D7A0D252809D7001F4186 /* MOSIURLRequestSerialization.h in CopyFiles */,
+				FF6D7A0E252809D7001F4186 /* MOSIURLResponseSerialization.h in CopyFiles */,
+				FF6D7A0F252809D7001F4186 /* MOSIURLSessionManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
